@@ -167,7 +167,7 @@ class InvestmentScorecardApp:
             st.markdown('<p class="big-font">Investment Scorecard</p>', unsafe_allow_html=True)
             
             # About section
-            with st.expander("About the App", expanded=True):
+            with st.expander("About the App", expanded=False):
                 st.markdown("""
                 <div class="about-section">
                 <h1>About the App</h1>
